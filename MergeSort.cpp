@@ -46,7 +46,7 @@ void mergeSort(int low, int high)
     mergeSort(low, mid);
     mergeSort(mid + 1, high);
 
-    
+
     int i = low;
     int j = mid + 1;
     int k = low;
@@ -79,6 +79,7 @@ void mergeSort(int low, int high)
         i++;
         k++;
     }
+    
 
     for (int x = low; x <= high; x++) 
     {
