@@ -79,7 +79,7 @@ void mergeSort(int low, int high)
         i++;
         k++;
     }
-    
+
 
     for (int x = low; x <= high; x++) 
     {
@@ -98,6 +98,7 @@ void output()
 }
 
 int main()
+
 {
     input();
     mergeSort(0, n - 1);
