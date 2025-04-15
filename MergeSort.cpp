@@ -15,7 +15,9 @@ void input()
         {
             break;
         } 
+
         else 
+        
         {
             cout << "Invalid input. Please enter a number between 1 and 20.\n";
         }
