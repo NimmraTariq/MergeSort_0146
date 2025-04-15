@@ -17,11 +17,12 @@ void input()
         } 
 
         else 
-        
+
         {
             cout << "Invalid input. Please enter a number between 1 and 20.\n";
         }
     }
+    
     cout << "\n-------------------------\n" << endl;
     cout << "Enter the elements of the array:\n" << endl;
     cout << "-------------------------\n" << endl;
